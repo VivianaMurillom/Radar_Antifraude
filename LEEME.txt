@@ -1,0 +1,65 @@
+RADAR ANTIFRAUDE — PROTOTIPO INDIVIDUAL ETAPA 4
+Proyecto de Ingeniería I — UNAD — Grupo 429
+
+1. PROGRAMAS
+- Visual Studio Code (gratuito): https://code.visualstudio.com/
+- Google Chrome o Microsoft Edge (navegador).
+- No requiere instalar Python, Node.js, base de datos ni servidor.
+
+2. CÓMO ABRIR
+- Extrae el archivo ZIP en una carpeta.
+- Haz doble clic en index.html, o ábrelo desde Visual Studio Code.
+- Deben permanecer juntos index.html, styles.css y script.js.
+- La tipografía usa Google Fonts si hay conexión; hay fuentes alternativas si no la hay.
+
+3. ARCHIVOS
+index.html: estructura de la página y formularios.
+styles.css: diseño, colores y adaptación a celular.
+script.js: módulos, simulador, evaluación, reportes y métricas.
+
+4. PRUEBAS PARA ETAPA 4
+- Abrir los 4 módulos y marcar cada uno como completado.
+- Resolver los 4 casos del simulador y anotar el resultado.
+- Responder las 5 preguntas de evaluación.
+- Registrar un reporte de falla ficticia.
+- Cronometrar las pruebas reales y anotarlas en Laboratorio.
+- Exportar los CSV, guardar capturas de pantalla y grabar un video explicativo.
+- Repetir las pruebas y construir gráficos de dispersión con los datos observados.
+
+5. LÍMITES ÉTICOS Y TÉCNICOS
+- Todos los mensajes del simulador son ficticios y usan dominios de ejemplo.
+- No introducir nombres, documentos, números de cuenta, contraseñas ni otros datos personales.
+- Los reportes y resultados se guardan SOLO en localStorage de este navegador.
+- No se envían datos a un administrador ni se sincronizan entre dispositivos.
+- No afirmar que existen videos, registro de usuarios, certificados o backend implementados.
+- Los tiempos del laboratorio se miden manualmente; no son mediciones automáticas.
+- Los datos experimentales deben proceder de pruebas reales, no de ejemplos inventados.
+
+6. MODIFICACIONES
+- Contenidos de módulos: array 'modules' en script.js.
+- Casos del simulador: array 'cases' en script.js.
+- Preguntas: array 'questions' en script.js.
+- Colores: variables al inicio de styles.css.
+- Nombre de la página: título y cabecera en index.html.
+
+7. PARA PUBLICAR
+Se puede publicar como sitio estático en GitHub Pages si se desea. Publicar NO convierte los
+reportes locales en reportes recibidos por un administrador. Para eso hace falta una integración
+con un formulario o servicio externo.
+
+8. PROPUESTA DE KPI
+- Tasa de éxito = (pruebas exitosas / pruebas totales) x 100.
+- Tiempo promedio = suma de tiempos / cantidad de pruebas.
+- Porcentaje de evaluación = (aciertos / 5) x 100.
+- Precisión en simulación = (decisiones correctas / 4) x 100.
+
+NOTA: Código original de prototipo demostrativo, requiere pruebas del estudiante.
+
+
+ACTUALIZACIÓN: VIDEOS EDUCATIVOS (06/11/2026)
+- Se agregó la sección «Aprende con videos», entre Capacitación y Simulador.
+- Contiene tres reproductores incrustados de YouTube y enlaces alternativos.
+- Se requiere conexión a internet. Algunos creadores restringen la inserción.
+- Los títulos de los videos no pudieron verificarse; aparecen como Recurso audiovisual 1, 2 y 3.
+- Para comprobar la reproducción, abre index.html en el navegador y prueba cada video.
+- El resto de las funciones y los datos almacenados localmente no se modificaron.
